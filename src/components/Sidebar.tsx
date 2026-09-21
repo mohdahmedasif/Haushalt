@@ -10,6 +10,7 @@ import {
 } from "@ant-design/icons";
 import { Menu } from "antd";
 import { PATHS } from "../nav";
+import { APP_NAME, APP_TAGLINE } from "../brand";
 
 const ITEMS = [
   {
@@ -53,8 +54,8 @@ export function Brand() {
     <div className="app-brand">
       <img className="app-brand-mark" src="/logo.svg" width={40} height={40} alt="" />
       <div className="app-brand-text">
-        <span className="app-brand-kicker">Personal finance</span>
-        <div className="app-brand-title">Budget</div>
+        <span className="app-brand-kicker">{APP_TAGLINE}</span>
+        <div className="app-brand-title">{APP_NAME}</div>
       </div>
     </div>
   );

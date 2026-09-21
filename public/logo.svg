@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Budget">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Haushalt">
   <rect width="64" height="64" rx="14" fill="#3D6B4F"/>
-  <!-- ledger baseline -->
   <path d="M16 46h32" stroke="#C4A574" stroke-width="2.5" stroke-linecap="round"/>
-  <!-- ascending month bars -->
   <rect x="18" y="34" width="8" height="12" rx="2" fill="#F6F4EF" fill-opacity="0.55"/>
   <rect x="28" y="26" width="8" height="20" rx="2" fill="#F6F4EF" fill-opacity="0.8"/>
   <rect x="38" y="16" width="8" height="30" rx="2" fill="#F6F4EF"/>

@@ -1,8 +1,8 @@
-# Budget
+# Haushalt
 
-Local-first personal finance for German bank CSVs. Import bookings, categorize with rules, track budgets, cash, lending, and contracts — all on your machine in SQLite.
+Local-first personal finance for German bank CSVs (Sparkasse CAMT / Umsatz). Import bookings, categorize with rules, track budgets, cash, lending, and contracts — all on your machine in SQLite.
 
-![Budget](public/logo.svg)
+![Haushalt](public/logo.svg)
 
 ## Features
 

@@ -6,6 +6,7 @@ import { formatMonth } from "../lib/dates";
 import { useMonth, withMonth } from "../hooks/useMonth";
 import { Sidebar } from "./Sidebar";
 import { MonthPicker } from "./MonthPicker";
+import { APP_NAME } from "../brand";
 
 const { Sider, Content } = Layout;
 
@@ -42,7 +43,7 @@ export function AppShell() {
                   aria-label="Open navigation"
                 />
                 <img className="app-header-mark" src="/logo.svg" width={28} height={28} alt="" />
-                <span className="app-header-month">Budget</span>
+                <span className="app-header-month">{APP_NAME}</span>
               </>
             )}
             {!isMobile && <span className="app-header-month">{formatMonth(month)}</span>}

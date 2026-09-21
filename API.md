@@ -1,6 +1,6 @@
 # Haushalt API v1
 
-Local JSON API for the web app and a future Telegram bot.
+Local JSON API for the Haushalt web app.
 
 - Base: `http://127.0.0.1:8787/api/v1`
 - Auth: `Authorization: Bearer haushalt-local` (change `HAUSHALT_API_KEY` in `.env`)

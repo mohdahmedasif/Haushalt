@@ -81,7 +81,7 @@ app.get("/api/v1/health", (_req, res) => {
 
 app.get("/api/v1", (_req, res) => {
   res.json({
-    name: "Budget API",
+    name: "Haushalt API",
     version: "v1",
     auth: "Authorization: Bearer <HAUSHALT_API_KEY>",
     endpoints: [
@@ -560,7 +560,7 @@ if (existsSync(dist)) {
 }
 
 app.listen(PORT, "127.0.0.1", () => {
-  console.log(`Budget API http://127.0.0.1:${PORT}/api/v1`);
+  console.log(`Haushalt API http://127.0.0.1:${PORT}/api/v1`);
 });
 
 function previewImport(csvText: string): ImportPreviewRow[] {

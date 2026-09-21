@@ -6,6 +6,7 @@ import { api } from "../api";
 import { parseGermanAmount } from "../lib/money";
 import { readCsvFile } from "../lib/parseSparkasse";
 import type { ImportBatch } from "../types";
+import { APP_NAME } from "../brand";
 
 function parseMoneyInput(raw: string): number {
   const text = raw.trim().replace(/€/g, "").trim();
@@ -86,7 +87,7 @@ export function SetupWizard({ onDone }: { onDone: () => Promise<void> }) {
       <div className="wizard-card">
         <div className="wizard-brand">
           <img src="/logo.svg" width={44} height={44} alt="" />
-          <div className="wizard-kicker">Budget</div>
+          <div className="wizard-kicker">{APP_NAME}</div>
         </div>
         <Typography.Title level={2} className="wizard-title">
           Set up your ledger
