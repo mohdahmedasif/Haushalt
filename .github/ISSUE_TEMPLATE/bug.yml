@@ -1,0 +1,33 @@
+name: Bug report
+description: Something is broken or unexpected
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do **not** paste bank CSVs, IBANs, account numbers, or real transactions.
+        Use a made-up example if you need to show a row.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you do, and what went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Node version
+      placeholder: "22.x"
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Fake CSV snippet, UI path, or error message (no real bank data).

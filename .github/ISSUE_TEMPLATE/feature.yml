@@ -1,0 +1,34 @@
+name: Feature request
+description: An idea or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Do **not** include real bank data, IBANs, or CSVs.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is hard or missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What would you like Haushalt to do?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - CSV import / other German banks
+        - Categorization / rules
+        - Budgets / report
+        - Cash / lending
+        - UI / accessibility
+        - Docs
+        - Other

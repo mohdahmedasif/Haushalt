@@ -2,6 +2,28 @@
   "name": "haushalt",
   "private": true,
   "version": "0.1.0",
+  "description": "Local-first personal finance for German bank CSVs (Sparkasse CAMT / Umsatz)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohdahmedasif/haushalt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mohdahmedasif/haushalt/issues"
+  },
+  "homepage": "https://github.com/mohdahmedasif/haushalt#readme",
+  "keywords": [
+    "personal-finance",
+    "budget",
+    "sparkasse",
+    "csv",
+    "local-first",
+    "sqlite",
+    "germany"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
   "type": "module",
   "scripts": {
     "dev": "concurrently -k \"npm:dev:api\" \"npm:dev:ui\"",
